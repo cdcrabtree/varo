@@ -8,12 +8,14 @@
 #'@param user A NameSor API Channel (User). This string contains 'namsor.com', the email address used to register for API access, and a vector of numbers.
 #'@return An object that classifies inputted names according to gender.
 #'@examples
+#' \dontrun{
 #' first_name <- c("Volha", "Charles", "Donald")
 #' last_name <- c("Chykina", "Crabtree", "Duck")
-#' key <- "63m6Yx0zLNAM33krdm3SORekGn8CFB"
-#' channel <- "namsor.com/ccrabtr@umich.edu/181283"
+#' key <- "45b2kjsskd2335435kkmfdksmfkko"
+#' channel <- "namsor.com/email@domain.com/111111"
 #' y <- get_gender(first_name, last_name, key, channel)
 #' y
+#' }
 #'@export
 #'
 
