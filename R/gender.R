@@ -16,8 +16,8 @@
 #' y <- get_gender(first_name, last_name, key, channel)
 #' y
 #' }
+#'@importFrom utils setTxtProgressBar txtProgressBar
 #'@export
-#'
 
 get_gender <- function(given, family, secret, user) {
   pb <- txtProgressBar(min = 0, max = length(given), style = 3)
