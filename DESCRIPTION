@@ -1,0 +1,18 @@
+Package: varo
+Type: Package
+Title: Classify Names by Gender
+Version: 0.5.0
+Authors@R: c(person("Charles", "Crabtree", role = c("aut", "cre"),
+                     email = "ccrabtr@umich.edu"),
+              person("Volha", "Chykina", role = c("aut")))
+Description: Functions to use the 'NameSor' API <https://api.namsor.com/namsor/faces/viewapikey.xhtml> for classifying names based on gender.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr,
+    RCurl,
+    utils
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
