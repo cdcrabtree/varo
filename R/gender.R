@@ -12,7 +12,8 @@
 #' first_name <- c("Volha", "Charles", "Donald")
 #' last_name <- c("Chykina", "Crabtree", "Duck")
 #'
-#' (Note that the vectors of first and last names should be the same length. Future versions of the package will deal with differing lengths.)
+#' Note that the vectors of first and last names should be the same length.
+#' Future versions of the package will deal with differing lengths.
 #'
 #' key <- "45b2kjsskd2335435kkmfdksmfkko"
 #' channel <- "namsor.com/email@domain.com/111111"
