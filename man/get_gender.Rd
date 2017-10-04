@@ -11,9 +11,9 @@ get_gender(given, family, secret, user)
 
 \item{family}{A vector of family names (i.e. surnames or last names).}
 
-\item{user}{A NameSor API Channel (User). This string contains 'namsor.com', the email address used to register for API access, and a vector of numbers.}
+\item{secret}{A NameSor API Key (Secret). This is typically a long string of mixed-case letters and numbers.}
 
-\item{key}{A NameSor API Key (Secret). This is typically a long string of mixed-case letters and numbers.}
+\item{user}{A NameSor API Channel (User). This string contains 'namsor.com', the email address used to register for API access, and a vector of numbers.}
 }
 \value{
 An object that classifies inputted names according to gender.

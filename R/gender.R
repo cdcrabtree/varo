@@ -4,7 +4,7 @@
 #'@author Charles Crabtree \email{ccrabtr@umich.edu}
 #'@param given A vector of given names (i.e. first names).
 #'@param family A vector of family names (i.e. surnames or last names).
-#'@param key A NameSor API Key (Secret). This is typically a long string of mixed-case letters and numbers.
+#'@param secret A NameSor API Key (Secret). This is typically a long string of mixed-case letters and numbers.
 #'@param user A NameSor API Channel (User). This string contains 'namsor.com', the email address used to register for API access, and a vector of numbers.
 #'@return An object that classifies inputted names according to gender.
 #'@examples
