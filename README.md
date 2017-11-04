@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/cdcrabtree/nomine.svg?branch=master)](https://travis-ci.org/cdcrabtree/varo) [![Build status](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/varo?svg=true)](https://ci.appveyor.com/api/projects/status/github/cdcrabtree/)
 
+**_varo is retired. Please use [`nomine`](https://github.com/cdcrabtree/nomine) instead._**
+
 # varo: Functions to classify names based on gender.
 
 Large social science literatures are devoted to the role of gender on a host of behaviors and circumstances. This means that researchers often want to know the gender of individuals. Not all pre-existing datasets contain this information, though. Even if reseachers do not have information about the ethnicity or nationality of individuals, though, they often know their names. Scholars can use these names to create hand-coded measures of gender, working from either name-gender lists or from their own naive priors. This can be extremely time consuming, though. Recent developments in machine learning make available more efficient approaches that can use names to probabilistically identify the gender of their bearers. These exciting advancments can potentially catalyze existing gender-realted research programs.
